@@ -1,0 +1,152 @@
+.pageTitle{
+	width: fit-content;
+	margin: auto;
+	color: #8A8A8A;
+	font-family: "RodinNTLG Pro";
+	font-weight: 500;
+}
+
+.pageSub{
+	width: fit-content;
+	margin: 0px auto 40px auto;
+	color: #8A8A8A;
+	font-family: "RodinNTLG Pro";
+	font-weight: 200;
+}
+
+.input{
+	width: fit-content;
+	margin: 20px auto 30px auto;
+	border-radius: 15px;
+	padding: 10px;
+	display: block;
+	color: #8A8A8A;
+	font-family: "RodinNTLG Pro";
+	font-weight: 200;
+	background-color: white;
+	box-shadow: 0 5px 30px 5px #C2C2C2;
+}
+
+input{
+	color: #4A4A4A;
+	padding: 0px 2px;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 5px;
+	border-color: #C2C2C2;
+	font-family: "RodinNTLG Pro";
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.btn{
+	padding: 0px 12px;
+	color: #8A8A8A;
+	background-color: #F1F1F1;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 18px;
+	border-color: #C2C2C2;
+	font-size: 16px;
+}
+
+.btn:hover{
+	background-color: #E5E5E5;
+}
+
+.btn:active{
+	background-color: #DFDFDF;
+}
+
+.arraySize{
+	width: 40px;
+	padding: 0px 4px;
+	border-radius: 8px;
+}
+
+.genCont{
+	margin: auto;
+	padding: 0px 5px 8px 5px;
+	border-style: none  none solid none;
+	border-width: 1.5px;
+	border-color: #C2C2C2;
+}
+
+.sortTitle{
+
+}
+
+.sortCont{
+	width: fit-content;
+	margin: auto;
+	padding: 0px 5px 5px 5px;
+}
+
+.cat{
+	width: 85px;
+	padding: 0px 8px;
+	color: #8A8A8A;
+	background-color: #F1F1F1;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 8px;
+	border-color: #C2C2C2;
+	font-family: "RodinNTLG Pro";
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.cat:hover{
+	background-color: #E5E5E5;
+}
+
+.search{
+	padding: 0px 4px;
+	border-radius: 8px;
+}
+
+.bookshelf{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.book{
+	height: 300px;
+	width: 60px;
+	margin: 3px;
+	padding: 15px 0px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.book > p{
+	font-size: 24px;
+	writing-mode: tb-rl;
+}
+
+.book > div{
+	font-size: 16px;
+	writing-mode: tb-rl;
+}
+
+.blue{
+	color: #2d2d2d;
+	background-color: #78bcf7;
+}
+
+.green{
+	color: #2d2d2d;
+	background-color: #a6f2b2;
+}
+
+.red{
+	color: #2d2d2d;
+	background-color: #f89181;
+}
+
+.yellow{
+	color: #2d2d2d;
+	background-color: #f9ec85;
+}
